@@ -14,7 +14,7 @@ function Validate()
             return true;
     }
 
-function SendEmail($to = 'tri.developmentstudios@gmail.com')
+function SendEmail($to = 'martinezvea@gmail.com')
     {
         if(Validate() == true) {
                 $name           =   $_POST['name'];

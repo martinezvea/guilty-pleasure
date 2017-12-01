@@ -7,6 +7,7 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
 
+
 p {
   font-size: 25px; }
 
@@ -18,9 +19,29 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: white;
   outline: none; }
+#mainNav a{
+  color: white;
+  text-decoration: none;
+}
 
+#mainNav a:hover{
+  color: #8989ff;
+}
+
+.container .text-center a{
+  color: #89bbff;
+  text-decoration: none;
+}
+
+.container .text-center a:hover{
+  color: #8989ff;
+}
+
+.container .text-center{
+  color: #89bbff;
+}
 
 h1,
 h2,
@@ -33,9 +54,14 @@ h6 {
   text-transform: uppercase; 
  }
 
+h3{
+  margin-left: 40px;
+} 
+
 h2{
   padding: 20px;
 }
+
 
 hr.star-light,
 hr.star-primary {
@@ -236,6 +262,7 @@ footer {
     padding: 25px 0;
     background-color: #89bbff; }
 
+
 /* media icon */
 .btn-outline {
   font-size: 20px;
@@ -271,6 +298,9 @@ footer {
 
 /* send button */
 
+button{
+  color: #89bbff;
+}
 #sendMessageButton{
   background: #89bbff;
 }
